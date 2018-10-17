@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>TicTacToe</h1>
+    <div id="menu1">
+        <h2 onclick="Load()">Load Game</h2>   
+        <h2 onclick="mode()">Play with Computer</h2>
+        <h2 onclick="game1()">Play with Player</h2>
+        <h2 onclick="info()">Information</h2>        
+    </div>
+    <div style="display: none" id="menu2">
+        <h3>Created by @KeS334</h3>
+        <h3>Last Changes 02.05.2018</h3>
+        <h4 onclick="mainMenu()">Back to Menu</h4> 
+    </div>
+    <div style="display: none" id="menu3">
+        <h2 onclick="GM1()">Easy</h2>
+        <h2 onclick="GM2()">Normal</h2>
+        <h2 style="color: gray">Hard</h2>
+    </div>
+    <div style="display: none" id="menu4">
+           <h3 id="player">The course of: <span id="player1">Player 1</span><span id="player2">Player 2</span></h3>
+    <div id="pole">
+        <div class="line">
+            <img onclick="onTab1()" id="p1" src="img1.png" alt="">
+            <img onclick="onTab2()" id="p2" src="img1.png" alt="">
+            <img onclick="onTab3()" id="p3" src="img1.png" alt="">
+        </div>
+        <div class="line">
+            <img onclick="onTab4()" id="p4" src="img1.png" alt="">
+            <img onclick="onTab5()" id="p5" src="img1.png" alt="">
+            <img onclick="onTab6()" id="p6" src="img1.png" alt="">
+        </div>
+        <div class="line">
+            <img onclick="onTab7()" id="p7" src="img1.png" alt="">
+            <img onclick="onTab8()" id="p8" src="img1.png" alt="">
+            <img onclick="onTab9()" id="p9" src="img1.png" alt="">
+        </div>
+    </div> 
+    <h2 onclick="mainMenu()">Menu</h2>
+    </div>
+   
+</body>
+</html>
